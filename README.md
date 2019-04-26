@@ -1,0 +1,8 @@
+# sample_Persistence
+Photoshop Extensiobのpersistenceおよびパネルとjsxのデータの受け渡しのサンプルになります。
+
+name,width,heightの各種チェックボックスをオンにした状態でget inforボタンを押すと現在Photoshopで開いている
+ドキュメント名、幅、高さをパネル上に表示させる。
+persistenceチェックボックスをオンにするとチェックボックスの状態、表示させた情報をパネルを閉じても保持します。
+この情報はPhotoshopを閉じるまで保持されるがデバッグの状態も保持されてコードの中身を変えても反映されないので
+persistence自体最終的に搭載するにしても普段はオフにしておいた方が開発しやすいです。
